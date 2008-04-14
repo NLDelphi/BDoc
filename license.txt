@@ -1,0 +1,37 @@
+
+BDoc Licensing Policy
+
+
+
+This is our licensing policy in brief: Our BDoc software is 100% GPL, and if yours is also 100% GPL, then you never have to pay us for the licences. In all other instances, you are better served by our commercial licence. Read the details below!
+
+Licensing 
+BDoc software is licensed under the GPL license. The formal terms of the GPL license can be found in the GNU General Public License
+
+1. Free use for those who are 100% GPL 
+If your application is licensed under GPL you are free and welcome to ship any GPL software with your application. By "application" we mean any type of software application, system, tool or utility. For doing this, you do not need a separate signed agreement with Bergler ICT, because the GPL text is sufficient. 
+
+2. Free use for those who never copy, modify or distribute 
+As long as you never distribute (internally or externally) the BDoc Software in any way, you are free to use it for powering your application, irrespective of whether your application is under GPL approved license or not.
+
+More specifically:
+
+Modifying - You are allowed to modify BDoc Software source code any way you like. If you distribute the modified version, all changes, all interface code and all code that connects directly or indirectly to the interface code fall under GPL.
+
+Copying - You are allowed to copy BDoc binaries and source code, but when you do so, the copies will fall under the GPL license.
+
+3. Commercial use for everyone else 
+If your application is not licensed under GPL and you intend to distribute BDoc software (be that internally or externally), you must first obtain a commercial license to the BDoc software in question.
+
+More specifically:
+
+a) If you include the BDoc software in your non Open Source application, you need a commercial licence for BDoc (EUR 499,-- excl. VAT)
+
+c) If you use BDoc software within your organisation and you don't want to risk it falling under the GPL license, you are welcome to purchase a commercial license.
+
+4. Exceptions and free commercial licences 
+If you represent a non-profit organisation or an academic institution, we recommend you to put your own application under GPL. Thereby you are free to use BDoc software free of charge under the GPL licence. 
+
+If you are a private individual you are free to use BDoc software for your personal applications, as long as you do not distribute them.
+
+Please note that even if you ship a free demo version of your own application, the above rules apply.

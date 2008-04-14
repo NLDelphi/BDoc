@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Documenteren in Delphi</title>
+    <link rel="stylesheet" type="text/css" href="helpfile.css">	
+</head>
+
+<body>
+
+<h1>Documenteren in Delphi</h1>
+
+Door de opbouw van de BDoc documentatie wordt een project, of verzameling van projecten, al snel overzichtelijk in beeld gebracht. Toch zal het altijd nodig zijn om extra beschrijvingen bij de diverse items toe te voegen, bijvoorbeeld een beschrijving van een classe of property. Deze beschrijvingen worden door veel programmeurs al standaard als commentaar in de code geplaatst. 
+<br><br>
+BDoc maakt gebruik van deze standaarden door dit commentaar in de documentatie mee te nemen. Om commentaar als beschrijving van een item mee te nemen is het voldoende om dit commentaar steeds voor het betreffende item te plaatsen. De volgende beschrijvingen worden dan meegenomen:
+
+<ul>
+<li>Unit: commentaar bovenin de unit wordt als beschrijving bij de unit geplaatst</li>
+<li>Classe: commentaar boven een classedefinitie wordt als beschrijving bij de classe geplaatst</li>
+<li>Interface: commentaar boven een interfacedefinitie wordt als beschrijving bij de interface geplaatst</li>
+<li>Property: commentaar boven een property wordt als beschrijving bij de property geplaatst</li>
+<li>Procedure/functie: commentaar boven de implementatie van een procedure/functie wordt als beschrijving bij de procedure/functie geplaatst.</li> 
+</ul>
+
+Het commentaar in de units mag tussen commentaarhaken staan ({ } en (* *)), of achter slashes. Er kunnen extra keywords worden aangemaakt voor de index door deze tussen
+[ ] haken te plaatsen. Een unit met een formuler en een interface komt er dan als volgt uit te zien:
+<pre class="code">
+<code><font  face="Courier New"><font color="#000080">{ Deze unit bevat een demonstratieformulier. Het commentaar op deze plaats
+  wordt bij de unit weergegeven }
+</font><font color="#FF0000">unit </font>DemoFormU;
+
+<font color="#FF0000">interface
+
+uses
+  </font>Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, Dialogs;
+
+<font color="#FF0000">type
+  </font><font color="#000080">{ Demonstratieinterface om de plaats voor [documentatie] van interfaces aan
+    te geven }
+  </font>IDemoInterface = <font color="#FF0000">interface</font>(IUnknown)
+    <font color="#FF0000">procedure </font>DemoProcedure;
+  <font color="#FF0000">end</font>;
+
+  <font color="#000080">{ Dit demonstratieformulier bevat een aantal methods en properties. Het
+    formulier is gemaakt om de verschillende manieren van [documenteren] te laten
+    zien }
+  </font>TDemoForm = <font color="#FF0000">class</font>(TForm, IDemoInterface)
+  <font color="#FF0000">private
+    </font>FProp: <font color="#FF0000">string</font>;
+    <font color="#FF0000">procedure </font>DemoProcedure;
+  <font color="#FF0000">public
+    </font><font color="#000080">{ Demonstratieproperty om de plaats voor [documentatie] van properties aan
+      te geven }
+    </font><font color="#FF0000">property </font>DemoProp: <font color="#FF0000">string read </font>FProp <font color="#FF0000">write </font>FProp;
+  <font color="#FF0000">end</font>;
+
+<font color="#FF0000">implementation
+
+</font><font color="#000080">{$R *.DFM}
+
+{ TDemoForm }
+
+{ Demonstratieprocedure om de plaats voor documentatie van procedures en
+  functies aan te geven }
+</font><font color="#FF0000">procedure </font>TDemoForm.DemoProcedure;
+<font color="#FF0000">begin
+end</font>;
+
+<font color="#FF0000">end</font>.
+</font>
+</code></pre>
+<hr>
+<a href="aanmaken.html">Documentatie aanmaken</a>
+</body>
+</html>

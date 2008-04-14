@@ -1,0 +1,49 @@
+.topic 1000
+De BDoc wizard geeft u de mogelijkheid om de verschillende parameters in te
+stellen. Nadat alle instellingen zijn gezet wordt op de laatste pagina een
+samenvatting van de acties gegeven en kan hier de documentatie worden aangemaakt.
+
+U kunt help opvragen voor de verschillende items door deze te selecteren en
+op F1 te drukken of door rechts te klikken en 'Wat is dit?' te kiezen.
+
+.topic 1001
+Op deze pagina kunt u een nieuw BDoc project starten of een bestaand project
+openen.U kunt de instellingen van een BDoc project opslaan in een .BD bestand
+zodat u later van hetzelfde project automatisch documentatie kunt aanmaken.
+Gebruik de 'Open project' knop om een eerder aangemaakt project te openen.
+
+U kunt een BDoc project overigens ook openen door het bestand in de verkenner
+aan te klikken, BDoc wordt dan automatisch gestart en het project wordt geopend.
+
+.topic 1002
+Op deze pagina kunt u een Delphi projectgroep selecteren, of losse projecten
+aan de lijst toevoegen.Alle projecten in de Delphi projectgroep (of alle
+projecten in de lijst)worden in één helpbstand samengevoegd.
+U kunt projecten toevoegen aan de lijst via de 'Toevoegen' knop, maar ook door
+deze vanaf de verkenner naar het scherm te slepen.
+
+.topic 1003
+Het library path is het path waarin de bestanden worden gezocht welke
+worden meegenomen in de documentatie, vergelijkbaar dus met het library path
+in Delphi zelf. Het path kan vanuit Delphi worden geïmporteerd met de
+'Importeren uit Delphi' knop.
+in de directory waar de documentatie wordt aangemaakt komt in het geval van
+een HTMLHelp bestand alleen dat bestand te staan.Als de geen helpbestand
+wordt aangemaakt komt hier de verzameling HTML bestanden te staan.
+De titel wordt gebruikt als titel voor het hoofdbestand, maar ook als
+bestandsnaam voor het helpbestand.
+
+.topic 1004
+Op deze pagina kunt u instellen welke properties en methods er meegenomen
+worden in de documentatie. Voor externe documentatie van een package is het
+bijvoorbeeld niet zinvol om private properties en methods te documenteren
+terwijl dat voor interne documentatie van die package wel zinvol zal zijn.
+
+.topic 1005
+Als HTML Help workshop is geïnstalleerd wordt dat geregistreerd in de registry
+waardoor BDoc automatisch de helpcompiler kan vinden. Mocht de
+instelling in de registry niet juist zijn kunt u hier zelf de helpcompiler
+instellen.
+Bij acties wordt ingesteld of er HTMLhelp bestanden moeten worden aangemaakt en
+of deze moeten worden gecompileerd tot een helpbestand. Als dat het geval is
+worden de losse HTML bestanden na het aanmaken van het helpbestand verwijderd.

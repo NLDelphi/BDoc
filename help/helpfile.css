@@ -1,0 +1,37 @@
+A:active, A:focus, A:link, A:visited {
+	color : Maroon;
+	text-decoration : none;
+}
+A:HOVER {
+	color : Red;
+}
+
+
+BODY {
+	font-family : Arial, Helvetica, sans-serif;
+	background : #FDFDF6 url(logo_bergler.gif) no-repeat;
+	font-size: 11pt;
+	list-style : outside;
+}
+
+
+h1 {
+  font-size : large;
+   font-weight: bold; 
+   color: #4f6087; 
+   line-height: 20pt ;
+	text-align : center;
+}
+
+h2 {
+	font-size : medium;
+	color: #4f6087;
+	line-height: 15pt ;
+}
+
+.code {
+	font-family : Arial;
+	line-height : 100%;
+	font-size : small;
+}
+

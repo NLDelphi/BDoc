@@ -1,0 +1,4 @@
+De volgende componenten worden gebruikt
+
+- EC Software Help Suite (EHS) http://www.ec-software.com/
+- JEDI VCL http://jvcl.sourceforge.net/
